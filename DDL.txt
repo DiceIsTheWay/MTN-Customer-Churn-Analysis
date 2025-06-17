@@ -1,0 +1,31 @@
+DDL :
+
+CREATE TABLE table_m3()
+
+ALTER TABLE table_m3
+ADD COLUMN Customer ID VARCHAR(255),
+ADD COLUMN Full Name VARCHAR(255),
+ADD COLUMN Date of Purchase VARCHAR(255),
+ADD COLUMN Age INT,
+ADD COLUMN State VARCHAR(255),
+ADD COLUMN MTN Device VARCHAR(255),
+ADD COLUMN Gender VARCHAR(255),
+ADD COLUMN Satisfaction Rate INT,
+ADD COLUMN Customer Review VARCHAR(255),
+ADD COLUMN Customer Tenure in months INT,
+ADD COLUMN Subscription Plan VARCHAR(255),
+ADD COLUMN Unit Price INT,
+ADD COLUMN Number of Times Purchased INT,
+ADD COLUMN Total Revenue INT,
+ADD COLUMN Data Usage FLOAT,
+ADD COLUMN Customer Churn Status VARCHAR(255),
+ADD COLUMN Reasons for Churn VARCHAR(255)
+
+
+
+DML:
+- Right click on table_m3
+- Select Import/Export data
+- Fill Filename (C:\Users\Bardays\Documents\FTDS_H8\Phase 2\Milestone-3\P2M3_Dais_data_raw.csv)
+- Choose format csv
+- Select OK
